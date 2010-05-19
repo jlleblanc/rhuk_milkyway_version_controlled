@@ -22,12 +22,6 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/rhuk_milkyway/css/template.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/rhuk_milkyway/css/<?php echo $this->params->get('colorVariation'); ?>.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/rhuk_milkyway/css/<?php echo $this->params->get('backgroundVariation'); ?>_bg.css" type="text/css" />
-<!--[if lte IE 6]>
-<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/ieonly.css" rel="stylesheet" type="text/css" />
-<![endif]-->
-<?php if($this->direction == 'rtl') : ?>
-	<link href="<?php echo $this->baseurl ?>/templates/rhuk_milkyway/css/template_rtl.css" rel="stylesheet" type="text/css" />
-<?php endif; ?>
 
 </head>
 <body id="page_bg" class="color_<?php echo $this->params->get('colorVariation'); ?> bg_<?php echo $this->params->get('backgroundVariation'); ?> width_<?php echo $this->params->get('widthStyle'); ?>">
@@ -35,14 +29,6 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 <div class="center" align="center">
 	<div id="wrapper">
 		<div id="wrapper_r">
-			<div id="header">
-				<div id="header_l">
-					<div id="header_r">
-						<div id="logo"></div>
-						<jdoc:include type="modules" name="top" />
-					</div>
-				</div>
-			</div>
 
 			<div id="tabarea">
 				<div id="tabarea_l">
@@ -62,14 +48,6 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<div id="search">
-				<jdoc:include type="modules" name="user4" />
-			</div>
-
-			<div id="pathway">
-				<jdoc:include type="modules" name="breadcrumb" />
 			</div>
 
 			<div class="clr"></div>
