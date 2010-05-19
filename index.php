@@ -30,6 +30,11 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 	<div id="wrapper">
 		<div id="wrapper_r">
 
+			<table border="0" cellspacing="5" cellpadding="5">
+				<tr><th>Hideous table</th></tr>
+				<tr><td>Why is this here?</td></tr>
+			</table>
+
 			<div class="clr"></div>
 
 			<div id="whitebox">
