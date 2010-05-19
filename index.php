@@ -30,26 +30,6 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 	<div id="wrapper">
 		<div id="wrapper_r">
 
-			<div id="tabarea">
-				<div id="tabarea_l">
-					<div id="tabarea_r">
-						<div id="tabmenu">
-						<table cellpadding="0" cellspacing="0" class="pill">
-							<tr>
-								<td class="pill_l">&nbsp;</td>
-								<td class="pill_m">
-								<div id="pillmenu">
-									<jdoc:include type="modules" name="user3" />
-								</div>
-								</td>
-								<td class="pill_r">&nbsp;</td>
-							</tr>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-
 			<div class="clr"></div>
 
 			<div id="whitebox">
